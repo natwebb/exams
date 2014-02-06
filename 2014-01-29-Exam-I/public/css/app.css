@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffff;
+}
+#textBox {
+  height: 100px;
+}
+.wordBox {
+  height: 30px;
+  width: 250px;
+  border: 1px dotted black;
+  clear: both;
+}
+.wordBox > a > div {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.evenBox > a > div:first-child {
+  background-color: blue;
+  width: 110px;
+}
+.evenBox > a > div:nth-child(2) {
+  background-color: green;
+  width: 60px;
+}
+.evenBox > a > div:nth-child(3) {
+  background-color: white;
+  width: 78px;
+}
+.oddBox > a > div:first-child {
+  background-color: red;
+  width: 110px;
+}
+.oddBox > a > div:nth-child(2) {
+  background-color: yellow;
+  width: 60px;
+}
+.oddBox > a > div:nth-child(3) {
+  background-color: white;
+  width: 78px;
+}
